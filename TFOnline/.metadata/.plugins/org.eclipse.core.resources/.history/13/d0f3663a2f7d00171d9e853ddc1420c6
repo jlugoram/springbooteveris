@@ -1,0 +1,18 @@
+package com.everis.mx;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@SpringBootApplication
+@Controller
+public class HolaMundo3Application {
+
+	@ResponseBody
+	@RequestMapping("/");
+	public static void main(String[] args) {
+		SpringApplication.run(HolaMundo3Application.class, args);
+	}
+}

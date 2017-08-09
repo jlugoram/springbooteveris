@@ -1,0 +1,12 @@
+package com.everis.mx;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class HolaMundo4Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(HolaMundo4Application.class, args);
+	}
+}

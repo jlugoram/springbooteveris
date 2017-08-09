@@ -1,0 +1,17 @@
+package com.everis.mx;
+
+import javax.xml.ws.ResponseWrapper;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.stereotype.Controller;
+
+@SpringBootApplication
+@Controller
+public class HolaMundo4Application {
+	
+	
+	public static void main(String[] args) {
+		SpringApplication.run(HolaMundo4Application.class, args);
+	}
+}

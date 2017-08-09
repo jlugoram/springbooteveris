@@ -1,0 +1,12 @@
+package com.everis.mx;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class HolaEverisApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(HolaEverisApplication.class, args);
+	}
+}
