@@ -13,7 +13,7 @@ public class HolaEverisApplication {
 	@ResponseBody
 	@RequestMapping("/")
 	String entry() {
-		return "Hola Everis";
+		return "Hola Gabo";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(HolaEverisApplication.class, args);
